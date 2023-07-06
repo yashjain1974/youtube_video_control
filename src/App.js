@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import YouTubePlayer from './components/YoutubePlayer';
+
+import HidingContainer from './components/HidingContainer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return(
+    <div className="youtube">
+     <h1>Welcome to course videos</h1>
+    <YouTubePlayer></YouTubePlayer>
+    
     </div>
-  );
+
+  )
+  
+  
 }
 
 export default App;
