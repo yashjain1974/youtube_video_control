@@ -17,7 +17,7 @@
         min-width: 1040px;
         height: 360px;
         background-color: transparent;
-        border: 2px solid rgb(0, 0, 0);
+        /* border: 2px solid rgb(0, 0, 0); */
         z-index: 100;
     }
   }  
