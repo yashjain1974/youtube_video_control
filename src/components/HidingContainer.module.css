@@ -7,4 +7,17 @@
     /* border: 2px solid rgb(0, 0, 0); */
     z-index: 100;
 }
-
+[class*="col-"] {
+    width: 100%;
+  }
+  @media only screen and (max-width: 600px) {
+    .container{
+        position: relative;
+        /* top: 360px; */
+        min-width: 1040px;
+        height: 360px;
+        background-color: transparent;
+        border: 2px solid rgb(0, 0, 0);
+        z-index: 100;
+    }
+  }  
