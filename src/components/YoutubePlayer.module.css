@@ -1,4 +1,46 @@
 .ytube{
     position: relative;
-    bottom: 360px;
+    bottom: 566px;
 }
+.playPauseButton {
+    font-size: 36px;
+    cursor: pointer;
+    padding:5px;
+    margin:5px;
+    border:2px solid black;
+  }
+.slider {
+   
+    border:2px solid black;
+    width: 30%;
+    /* margin: 0 auto; */
+   
+    color: #f50057;
+  }
+@media only screen and (max-width: 600px) {
+    
+    .ytube{
+        text-align: center;
+        position: relative;
+        bottom: 560px;
+    }
+    .playPauseButton {
+        position: relative;
+        left: 74%;
+        font-size: 36px;
+        cursor: pointer;
+        padding:5px;
+        margin:25px;
+        border:2px solid black;
+      }
+    .slider {
+        position: relative;
+        left: 74%;
+   
+        border:2px solid black;
+        width: 30%;
+        /* margin: 0 auto; */
+       
+        color: #f50057;
+      }
+  }  

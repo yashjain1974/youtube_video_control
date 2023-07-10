@@ -2,3 +2,9 @@
 .youtube{
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+    
+  .youtube{
+    text-align: center;
+  }
+}  

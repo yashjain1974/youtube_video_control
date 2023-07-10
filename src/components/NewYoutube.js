@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react';
 import YouTube from 'react-youtube';
-
 const NewYoutube = () => {
   const [videoId, setVideoId] = useState('ckiaNqOrG5U');
   const [player, setPlayer] = useState(null);

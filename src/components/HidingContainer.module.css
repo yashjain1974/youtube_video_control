@@ -1,8 +1,8 @@
 .container{
     position: relative;
     /* top: 360px; */
-    width: 640;
-    height: 360px;
+    width: 1240;
+    height: 566px;
     background-color: transparent;
     /* border: 2px solid rgb(0, 0, 0); */
     z-index: 100;
@@ -14,10 +14,10 @@
     .container{
         position: relative;
         /* top: 360px; */
-        min-width: 1040px;
-        height: 360px;
+        width: 1240px;
+        height: 560px;
         background-color: transparent;
-        /* border: 2px solid rgb(0, 0, 0); */
+        border: 2px solid rgb(0, 0, 0);
         z-index: 100;
     }
   }  
